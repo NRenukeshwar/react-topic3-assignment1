@@ -27,9 +27,11 @@ class App extends Component {
         <h1>Employee List</h1>
         <table border="1" style={{textAlign:"center"}}>
           <thead>
-            <th>Employee ID</th>
-            <th>Employee Name</th>
-            <th>Employee Email ID</th>
+            <tr>
+              <th>Employee ID</th>
+              <th>Employee Name</th>
+              <th>Employee Email ID</th>
+            </tr>
           </thead>
           <tbody>
             {rows}
