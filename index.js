@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   render() {
-    const rows=this.state.employee.map(e => <tr>
+    const rows=this.state.employee.map(e => <tr key={e.id}>
           <td>{e.id}</td>
           <td>{e.name}</td>
           <td>{e.email}</td>
